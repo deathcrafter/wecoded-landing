@@ -6,6 +6,7 @@ import WinnersSection from "./sections/Winners";
 import { AboutSection } from "./sections/About";
 import PostsSection from "./sections/Posts";
 import JoinSection from "./sections/Join";
+import AttributionsSection from "./sections/Attributions";
 
 function App() {
   const hummanRef = useRef<{ update: () => void }>(null!);
@@ -56,6 +57,9 @@ function App() {
           </div>
           <div className="p-8 backdrop-blur-2xl border-2 border-dev-brand rounded-2xl mb-10">
             <WinnersSection />
+          </div>
+          <div className="p-8 backdrop-blur-2xl border-2 border-dev-brand rounded-2xl mb-10">
+            <AttributionsSection />
           </div>
         </div>
       )}

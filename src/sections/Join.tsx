@@ -4,8 +4,10 @@ export default function JoinSection() {
   return (
     <section className="relative">
       <SpeakerPhone className="absolute w-40 -top-46 -left-0" />
-      <h1 className="text-4xl font-bold text-yellow-600">Be Heard...</h1>
-      <p className="text-sm text-gray-800 mb-6 font-semibold">
+      <h1 className="font-serif text-4xl font-bold text-yellow-600">
+        Be Heard...
+      </h1>
+      <p className="font-serif text-sm text-gray-800 mb-6 font-semibold">
         by a community that believes, that cares, and that is here for you.
       </p>
       <p className="text-lg font-medium mb-10">

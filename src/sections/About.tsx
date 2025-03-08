@@ -7,7 +7,9 @@ export function AboutSection() {
       animate={{ opacity: 1, transition: { delay: 1.55 } }}
     >
       <StorySvg className="absolute w-40 -top-36 -left-3" />
-      <h1 className="text-4xl font-bold text-dev-complement mb-6">Our Story</h1>
+      <h1 className="font-serif text-4xl font-bold text-dev-complement mb-6">
+        Our Story
+      </h1>
       <p className="text-lg font-medium">
         <span className="bg-gradient-to-l from-indigo-500 via-red-500 to-blue-500 text-transparent bg-clip-text">
           #wecoded

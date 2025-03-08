@@ -32,10 +32,10 @@ export default function PostsSection() {
   return (
     <section>
       <SpeakupSvg className="absolute w-40 -top-20 -right-16 rotate-y-180" />
-      <h1 className="text-4xl font-bold text-violet-800 mb-1">
+      <h1 className="font-serif text-4xl font-bold text-violet-800 mb-1">
         Hear the Voices...
       </h1>
-      <p className="text-sm text-gray-800 mb-6 font-semibold">
+      <p className="font-serif text-sm text-gray-800 mb-6 font-semibold">
         of our beloved community, of how they aspire, how they achieve, and how
         they grow.
       </p>

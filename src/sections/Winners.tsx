@@ -103,7 +103,7 @@ export default function WinnersSection() {
   return (
     <motion.section id="winners" className="relative">
       <WinnerSvg className="absolute w-40 -top-30 -right-20" />
-      <h1 className="text-4xl font-bold text-sky-800 mb-6">
+      <h1 className="font-serif text-4xl font-bold text-sky-800 mb-6">
         Winners from{" "}
         <span className="bg-gradient-to-l from-indigo-500 via-red-500 to-blue-500 text-transparent bg-clip-text">
           #wecoded
