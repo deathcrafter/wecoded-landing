@@ -1,6 +1,6 @@
 export default function AttributionsSection() {
   return (
-    <section>
+    <section id="attributions">
       <h1 className="font-serif text-4xl font-bold text-teal-600 mb-6">
         Attributions
       </h1>

@@ -3,6 +3,7 @@ import StorySvg from "../assets/graphics/story.svg?react";
 export function AboutSection() {
   return (
     <motion.section
+      id="about"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { delay: 1.55 } }}
     >

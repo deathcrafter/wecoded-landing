@@ -2,7 +2,7 @@ import SpeakerPhone from "../assets/graphics/speakerphone.svg?react";
 
 export default function JoinSection() {
   return (
-    <section className="relative">
+    <section id="join" className="relative">
       <SpeakerPhone className="absolute w-40 -top-46 -left-0" />
       <h1 className="font-serif text-4xl font-bold text-yellow-600">
         Be Heard...

@@ -1,5 +1,3 @@
-import { motion } from "motion/react";
-// import Trophy from "../assets/graphics/trophy.svg?react";
 import WinnerSvg from "../assets/graphics/winner.svg?react";
 import styled from "styled-components";
 
@@ -101,7 +99,7 @@ function Winner({ post, position }: WinnerProps) {
 
 export default function WinnersSection() {
   return (
-    <motion.section id="winners" className="relative">
+    <section id="winners" className="relative">
       <WinnerSvg className="absolute w-40 -top-30 -right-20" />
       <h1 className="font-serif text-4xl font-bold text-sky-800 mb-6">
         Winners from{" "}
@@ -154,6 +152,6 @@ export default function WinnersSection() {
           position={3}
         />
       </div>
-    </motion.section>
+    </section>
   );
 }
